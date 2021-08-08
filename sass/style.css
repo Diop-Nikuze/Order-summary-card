@@ -1,0 +1,110 @@
+.hero img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  font-weight: 900;
+  font-size: 25px;
+  color: #1f2f56;
+}
+
+.intro p {
+  color: #7280a7;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0 3rem;
+}
+
+.fees {
+  background-color: #f5f7ff;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 15px;
+  width: 300px;
+  margin: 0.3rem auto 0 auto;
+}
+
+.fees .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fees .plans img {
+  margin-right: 7px;
+}
+
+.fees .plans-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fees .plans-info .limit {
+  font-weight: 700;
+}
+
+.fees .plans-info .price {
+  color: gray;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.fees a {
+  font-size: 0.7rem;
+}
+
+.payment {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.payment a {
+  width: 300px;
+  padding: 3% 24%;
+  text-decoration: none;
+  background-color: #3829e0;
+  border-radius: 9px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: #e0e8ff;
+}
+
+.card {
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

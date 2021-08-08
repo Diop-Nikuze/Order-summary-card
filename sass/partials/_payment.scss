@@ -1,0 +1,16 @@
+.payment {
+  text-align: center;
+  margin: 30px auto;
+
+  a {
+    width: 300px;
+    padding: 3% 24%;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 9px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+}
