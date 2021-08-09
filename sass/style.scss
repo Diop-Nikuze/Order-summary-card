@@ -17,3 +17,16 @@ body {
   border-radius: 10px;
   background-color: #fff;
 }
+
+.attribution {
+  display: flex;
+  align-items: flex-end;
+  height: 95vh;
+  justify-content: center;
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(245, 75%, 52%);
+  }
+}

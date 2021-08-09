@@ -1,7 +1,7 @@
 .hero img {
   width: 100%;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .intro {
@@ -73,6 +73,14 @@
 
 .fees a {
   font-size: 0.7rem;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  color: #3829e0;
+}
+
+.fees a:hover {
+  text-decoration: none;
+  color: #4b4398;
 }
 
 .payment {
@@ -82,7 +90,7 @@
 
 .payment a {
   width: 300px;
-  padding: 3% 24%;
+  padding: 3.5% 24%;
   text-decoration: none;
   background-color: #3829e0;
   border-radius: 9px;
@@ -90,6 +98,30 @@
   font-size: 0.8rem;
   font-weight: 900;
   cursor: pointer;
+  -webkit-box-shadow: 0 5px 15px grey;
+          box-shadow: 0 5px 15px grey;
+}
+
+.payment a:hover {
+  background: #4b4398;
+}
+
+.cancel-order {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.cancel-order a {
+  text-decoration: none;
+  color: #7280a7;
+  font-size: 0.8rem;
+  font-weight: 900;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cancel-order a:hover {
+  color: #1f2f56;
 }
 
 body {
@@ -106,5 +138,24 @@ body {
           transform: translate(-50%, -50%);
   border-radius: 10px;
   background-color: #fff;
+}
+
+.attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 95vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3829e0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -34,5 +34,12 @@
 
   a {
     font-size: 0.7rem;
+    transition: all 0.8s;
+    color: hsl(245, 75%, 52%);
+
+    &:hover {
+      text-decoration: none;
+      color: hsl(246, 39%, 43%);
+    }
   }
 }
