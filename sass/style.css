@@ -62,7 +62,9 @@
 }
 
 .fees .plans-info .limit {
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: #1f2f56;
 }
 
 .fees .plans-info .price {
